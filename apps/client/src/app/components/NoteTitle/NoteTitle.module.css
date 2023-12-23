@@ -1,7 +1,31 @@
 .containerSelected {
-    background-color: rgb(195, 195, 195);
+    width: 90%;
+    background-color: rgb(140, 140, 140);
+    color: rgb(220, 220, 220);
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 10px;
+    padding-top: 30px;
+    border-radius: 15px;
 }
 
 .containerUnselected {
-    background-color: rgb(48, 48, 48);
+    width: 90%;
+    background-color: rgb(30, 31, 32);
+    color: rgb(220, 220, 220);
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.rule {
+    color: rgb(52, 53, 54);
+    width: 90%;
 }

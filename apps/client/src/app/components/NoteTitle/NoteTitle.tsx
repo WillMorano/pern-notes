@@ -2,11 +2,20 @@ import React from 'react'
 import { Note } from '../../interfaces'
 import styles from './NoteTitle.module.css'
 
-const NoteTitle = (props: {note: Note, selected: boolean}) => {
+const NoteTitle = (props: {note: Note, selected: boolean, onSelect: (id: number) => void}) => {
+
+    function abbrevTitle(title: string) {
+        if(title.length > 14) {
+            return title.substring(0, 14) + "..."
+        }
+        return title
+    }
+
     return (
-        <div className={props.selected? styles.containerSelected:styles.containerUnselected}>
-            <h1>{props.note.title}</h1>
-            <h3>{props.note.date}</h3>
+        <div className={props.selected? styles.containerSelected:styles.containerUnselected} onClick={() => props.onSelect(props.note.id)}>
+            <h1>{abbrevTitle(props.note.title)}</h1>
+            <h4 className={styles.date}>{props.note.date}</h4>
+            <hr className={styles.rule}/>
         </div>
     )
 }

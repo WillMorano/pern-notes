@@ -1,1 +1,1 @@
-DROP DATABASE api;
+DROP DATABASE pernnotes;

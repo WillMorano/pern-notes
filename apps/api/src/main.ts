@@ -19,7 +19,6 @@ app.use(
 )
 
 app.get('/notes', db.getNotes)
-app.get('/notes/:id', db.getNoteById)
 app.post('/notes', db.addNote)
 app.put('/notes/:id', db.updateNote)
 app.delete('/notes/:id', db.deleteNote)

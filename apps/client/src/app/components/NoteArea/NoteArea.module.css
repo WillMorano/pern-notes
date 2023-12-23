@@ -1,4 +1,35 @@
 .container {
-    color: red;
-    border: 2px solid black;
+    padding: 2%;
+    color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    color: rgb(129, 129, 129);
+}
+
+.title {
+    color: rgb(220, 220, 220);
+    border: none;
+    width: 99%;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: rgb(30,30,30);
+}
+
+.body {
+    color: rgb(220, 220, 220);
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    height: 80vh;
+    font-size: 24px;
+    width: 96%;
+    background-color: rgb(30,30,30);
 }
