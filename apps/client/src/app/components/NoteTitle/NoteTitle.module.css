@@ -1,0 +1,7 @@
+.containerSelected {
+    background-color: rgb(195, 195, 195);
+}
+
+.containerUnselected {
+    background-color: rgb(48, 48, 48);
+}
