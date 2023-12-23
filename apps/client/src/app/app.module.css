@@ -20,7 +20,7 @@
 
 .titleArea {
     grid-area: title;
-    background-color: rgb(30, 31, 32);
+    background-color: var(--title-background);
     padding: 2%;
     overflow-y: scroll;
     border-right: 1px solid black;
@@ -28,5 +28,5 @@
 
 .noteArea {
     grid-area: body;
-    background-color: rgb(30,30,30);
+    background-color: var(--note-area-background);
 }

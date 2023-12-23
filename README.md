@@ -2,5 +2,6 @@
 
 ## Local Setup
 - Works with postgres installed with brew
-- Run "sh scripts/database/build-databes.sh"
+- Clone repository
+- Run "sh scripts/database/build-database.sh"
 - Run "npm start"

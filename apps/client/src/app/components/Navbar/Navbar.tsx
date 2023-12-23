@@ -5,6 +5,7 @@ import { IoCreateOutline } from "react-icons/io5";
 import { RiSave3Line } from "react-icons/ri";
 import { Tooltip } from 'react-tooltip'
 
+// Holds the title and the save, create, and delete buttons
 const Navbar = (props: { onSave: () => Promise<void>, onCreate: () => Promise<void>, onDelete: () => Promise<void>}) => {
     return (
         <div className={styles.container}>

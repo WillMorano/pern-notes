@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --title-background: rgb(30, 31, 32);
+    --note-area-background: rgb(30, 30, 30);
+    --navbar-background: rgb(39, 40, 41);
+    --primary-text-color: rgb(220, 220, 220);
+    --secondary-text-color: rgb(129, 129, 129);
+    --selected-note-background: rgb(140, 140, 140);
+    --rule-color: rgb(52, 53, 54);
+    --icon-color: rgb(144, 144, 144);
+}

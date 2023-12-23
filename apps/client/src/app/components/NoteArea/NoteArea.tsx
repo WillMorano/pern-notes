@@ -4,8 +4,10 @@ import styles from './NoteArea.module.css'
 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
+// Component to represent the note editing area 
 const NoteArea = (props: {note: Note, handleInputChange: (event: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>) => void}) => {
 
+    // Extend the date from mm
     function extendDate(date: string): string {
         let dateExtended = ""
         if(date !== "") {

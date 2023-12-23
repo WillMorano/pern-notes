@@ -1,6 +1,10 @@
 #!/bin/bash
 brew services start postgresql
 
+ADMIN_FILE="scripts/database/psql-database-admin.sql"
+
+psql postgres -f "$ADMIN_FILE"
+
 # Set database connection parameters
 DB_NAME="postgres"
 DB_USER="admin"

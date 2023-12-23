@@ -1,7 +1,7 @@
 .containerSelected {
     width: 90%;
-    background-color: rgb(140, 140, 140);
-    color: rgb(220, 220, 220);
+    background-color: var(--selected-note-background);
+    color: var(--primary-text-color);
     display: flex;
     align-items: left;
     justify-content: center;
@@ -14,8 +14,8 @@
 
 .containerUnselected {
     width: 90%;
-    background-color: rgb(30, 31, 32);
-    color: rgb(220, 220, 220);
+    background-color: var(--title-background);
+    color: var(--primary-text-color);
     display: flex;
     align-items: left;
     justify-content: center;
@@ -26,6 +26,6 @@
 }
 
 .rule {
-    color: rgb(52, 53, 54);
+    color: var(--rule-color);
     width: 90%;
 }

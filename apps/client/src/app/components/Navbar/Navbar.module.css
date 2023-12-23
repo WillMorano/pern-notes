@@ -1,5 +1,5 @@
 .container {
-    background-color: rgb(39, 40, 41);
+    background-color: var(--navbar-background);
     height: 100%;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .title {
-    color: rgb(220, 220, 220);
+    color: var(--primary-text-color);
     font-size: 30px;
     text-align: left;
     padding-left: 20px;
@@ -17,21 +17,21 @@
 }
 
 .edit {
-    color: rgb(144, 144, 144);
+    color: var(--icon-color);
     font-size: 29px;
     position: relative;
     top: 3px;
 }
 
 .create {
-    color: rgb(144, 144, 144);
+    color: var(--icon-color);
     font-size: 29px;
     position: relative;
     top: 3px;
 }
 
 .trash {
-    color: rgb(144, 144, 144);
+    color: var(--icon-color);
     font-size: 26px;
     position: relative;
     top: 3px;
